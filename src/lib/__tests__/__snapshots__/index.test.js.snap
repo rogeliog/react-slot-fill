@@ -1,0 +1,29 @@
+exports[`test Fills the a simple slot 1`] = `
+<div>
+  <button>
+    Home
+  </button>
+</div>
+`;
+
+exports[`test Fills the appropriate slot 1`] = `
+Array [
+  <div>
+    <button>
+        Home
+    </button>
+    <button>
+        Home
+    </button>
+    <button>
+        About
+    </button>
+</div>,
+  <div>
+    <a
+        href="twitter.com/reactjs">
+        Twitter
+    </a>
+</div>,
+]
+`;
